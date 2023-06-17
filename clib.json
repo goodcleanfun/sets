@@ -1,0 +1,16 @@
+{
+  "name": "sets",
+  "version": "0.1.0",
+  "repo": "goodcleanfun/sets",
+  "description": "Sets for standard types using khash",
+  "keywords": ["set", "hashset", "khash", "hashing"],
+  "license": "MIT",
+  "dependencies": {
+    "goodcleanfun/khash": "*"
+  },
+  "src": [
+    "src/int_set.h",
+    "src/int64_set.h",
+    "src/str_set.h"
+  ]
+}
